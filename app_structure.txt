@@ -1,0 +1,24 @@
+/Users/akshatmajila/OS-CyberSec/
+├── app.py                   # Main Flask application file
+├── requirements.txt         # Dependencies
+├── .env                     # Environment variables
+├── .gitignore               # Git ignore file
+├── static/                  # Static assets
+│   ├── css/
+│   │   └── styles.css       # Main stylesheet
+│   ├── js/
+│   │   └── main.js          # Main JavaScript file
+│   └── img/
+│       └── logo.png         # Logo image
+├── templates/               # HTML templates
+│   ├── base.html            # Base template with common elements
+│   ├── index.html           # Main dashboard page
+│   ├── vulnerability.html   # Vulnerability details template
+│   └── error.html           # Error page template
+├── modules/                 # Application modules
+│   ├── __init__.py
+│   ├── system_info.py       # System information collection module
+│   ├── vulnerability.py     # Vulnerability assessment module
+│   └── reporting.py         # Report generation module
+└── db/                      # Database directory
+    └── chroma_db_with_metadata/  # Vector database storage
